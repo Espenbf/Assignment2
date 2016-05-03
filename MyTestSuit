@@ -16,6 +16,9 @@
 <tr><td><a href="DeleteItemFromCart.html">DeleteItemFromCart</a></td></tr>
 <tr><td><a href="CheckoutViaMyCart.html">CheckoutViaMyCart</a></td></tr>
 <tr><td><a href="Checkout.html">Checkout</a></td></tr>
+<tr><td><a href="FillOutCheckoutForm.html">FillOutCheckoutForm</a></td></tr>
+<tr><td><a href="FinalizeOrder.html">FinalizeOrder</a></td></tr>
+<tr><td><a href="SignOut.html">SignOut</a></td></tr>
 </tbody></table>
 </body>
 </html>
