@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/" />
+<title>FillOutCheckoutForm</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">FillOutCheckoutForm</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/checkout.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=checkbox_shipping_same_as_billing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.shipping_same_as_billing.checkbox &gt; label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.billing_form.col-lg-6 &gt; div.form-group &gt; label.control-label.col-lg-10</td>
+	<td>tester testdude</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=label.control-label.col-lg-10</td>
+	<td>tester testdude</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3.shipping_methods</td>
+	<td>Shipping Options</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
